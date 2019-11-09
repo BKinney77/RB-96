@@ -18,14 +18,14 @@
       "rid": 0,
       "teams": [
         {
-          "tid": 23,
+          "tid": 18,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         },
         {
-          "tid": 1,
+          "tid": 13,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
@@ -5358,7 +5358,7 @@
     },
     {
       "key": "userTid",
-      "value": 0
+      "value": 18
     },
     {
       "key": "userTids",
@@ -60322,7 +60322,7 @@
       "ptModifier": 1,
       "retiredYear": null,
       "rosterOrder": 5,
-      "watch": true,
+      "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
         {
