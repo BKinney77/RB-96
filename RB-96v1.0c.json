@@ -18,14 +18,14 @@
       "rid": 0,
       "teams": [
         {
-          "tid": 23,
+          "tid": 18,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         },
         {
-          "tid": 0,
+          "tid": 13,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
@@ -5257,7 +5257,7 @@
     },
     {
       "key": "maxRosterSize",
-      "value": 18
+      "value": 15
     },
     {
       "key": "minContract",
@@ -5358,7 +5358,7 @@
     },
     {
       "key": "userTid",
-      "value": 19
+      "value": 18
     },
     {
       "key": "userTids",
@@ -60322,7 +60322,7 @@
       "ptModifier": 1,
       "retiredYear": null,
       "rosterOrder": 5,
-      "watch": true,
+      "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
         {
@@ -116877,57 +116877,67 @@
       "skills": [],
       "awards": [],
       "face": {
+        "fatness": 0.09,
+        "teamColors": [
+          "#0d435e",
+          "#f0494a",
+          "#cccccc"
+        ],
+        "body": {
+          "id": "body",
+          "color": "#ce967d"
+        },
+        "jersey": {
+          "id": "jersey3"
+        },
+        "ear": {
+          "id": "ear2",
+          "size": 1.12
+        },
         "head": {
-          "id": 0
+          "id": "head1",
+          "shave": "rgba(0,0,0,0)"
         },
-        "eyebrows": [
-          {
-            "id": 0,
-            "lr": "l",
-            "cx": 135,
-            "cy": 250
-          },
-          {
-            "id": 0,
-            "lr": "r",
-            "cx": 265,
-            "cy": 250
-          }
-        ],
-        "eyes": [
-          {
-            "id": 2,
-            "lr": "l",
-            "cx": 135,
-            "cy": 280,
-            "angle": -7.241208879300736
-          },
-          {
-            "id": 2,
-            "lr": "r",
-            "cx": 265,
-            "cy": 280,
-            "angle": -7.241208879300736
-          }
-        ],
-        "nose": {
-          "id": 0,
-          "lr": "l",
-          "cx": 200,
-          "cy": 330,
-          "size": 0.19401313282231536,
-          "flip": false
+        "eyeLine": {
+          "id": "line3"
         },
-        "mouth": {
-          "id": 0,
-          "cx": 200,
-          "cy": 400
+        "smileLine": {
+          "id": "line4",
+          "size": 1.46
+        },
+        "miscLine": {
+          "id": "forehead5"
+        },
+        "facialHair": {
+          "id": "honest-abe-stache"
+        },
+        "eye": {
+          "id": "eye4",
+          "angle": 7
+        },
+        "eyebrow": {
+          "id": "eyebrow2",
+          "angle": 19
         },
         "hair": {
-          "id": 3
+          "id": "bald",
+          "color": "#272421"
         },
-        "fatness": 0.9906122113534541,
-        "color": "#ad6453"
+        "mouth": {
+          "id": "smile3",
+          "flip": true
+        },
+        "nose": {
+          "id": "pinocchio",
+          "flip": true,
+          "size": 0.7
+        },
+        "glasses": {
+          "id": "none"
+        },
+        "accessories": {
+          "id": "none"
+        }
       },
       "freeAgentMood": [
         0,
@@ -116983,7 +116993,60 @@
       "valueNoPotFuzz": 47,
       "valueWithContract": 45.824999999999996,
       "pid": 417,
-      "injuries": []
+      "injuries": [],
+      "face2": {
+        "head": {
+          "id": 0
+        },
+        "eyebrows": [
+          {
+            "id": 0,
+            "lr": "l",
+            "cx": 135,
+            "cy": 250
+          },
+          {
+            "id": 0,
+            "lr": "r",
+            "cx": 265,
+            "cy": 250
+          }
+        ],
+        "eyes": [
+          {
+            "id": 2,
+            "lr": "l",
+            "cx": 135,
+            "cy": 280,
+            "angle": -7.241208879300736
+          },
+          {
+            "id": 2,
+            "lr": "r",
+            "cx": 265,
+            "cy": 280,
+            "angle": -7.241208879300736
+          }
+        ],
+        "nose": {
+          "id": 0,
+          "lr": "l",
+          "cx": 200,
+          "cy": 330,
+          "size": 0.19401313282231536,
+          "flip": false
+        },
+        "mouth": {
+          "id": 0,
+          "cx": 200,
+          "cy": 400
+        },
+        "hair": {
+          "id": 3
+        },
+        "fatness": 0.9906122113534541,
+        "color": "#ad6453"
+      }
     },
     {
       "tid": -1,
