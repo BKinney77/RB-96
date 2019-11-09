@@ -27,17 +27,10 @@
           "dpidsExcluded": []
         },
         {
-          "tid": 13,
-          "pids": [
-            188,
-            192,
-            194
-          ],
+          "tid": 0,
+          "pids": [],
           "pidsExcluded": [],
-          "dpids": [
-            26,
-            84
-          ],
+          "dpids": [],
           "dpidsExcluded": []
         }
       ]
@@ -178,6 +171,15 @@
         "exp": "1996"
       },
       "rid": 14
+    },
+    {
+      "pid": 412,
+      "tid": 13,
+      "contract": {
+        "amount": 200,
+        "exp": "1996"
+      },
+      "rid": 15
     }
   ],
   "teams": [
@@ -5367,7 +5369,7 @@
     },
     {
       "key": "userTid",
-      "value": 28
+      "value": 5
     },
     {
       "key": "userTids",
@@ -6412,6 +6414,114 @@
       ],
       "season": 1996,
       "eid": 73
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/2/roster/ORL/1996\">Magic</a> signed <a href=\"/l/2/player/196\">Kevin Willis</a> for $0.20M/year through 1997.",
+      "pids": [
+        196
+      ],
+      "tids": [
+        18
+      ],
+      "season": 1996,
+      "eid": 74
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/2/roster/ORL/1996\">Magic</a> signed <a href=\"/l/2/player/67\">Michael Cage</a> for $0.20M/year through 1996.",
+      "pids": [
+        67
+      ],
+      "tids": [
+        18
+      ],
+      "season": 1996,
+      "eid": 75
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/2/roster/ORL/1996\">Magic</a> signed <a href=\"/l/2/player/110\">Michael Curry</a> for $0.20M/year through 1996.",
+      "pids": [
+        110
+      ],
+      "tids": [
+        18
+      ],
+      "season": 1996,
+      "eid": 76
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/2/roster/MIA/1996\">Heat</a> released <a href=\"/l/2/player/412\">Chris Whitney</a>.",
+      "pids": [
+        412
+      ],
+      "tids": [
+        13
+      ],
+      "season": 1996,
+      "eid": 77
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/2/roster/MIA/1996\">Heat</a> signed <a href=\"/l/2/player/415\">Kevin Pritchard</a> for $0.20M/year through 1996.",
+      "pids": [
+        415
+      ],
+      "tids": [
+        13
+      ],
+      "season": 1996,
+      "eid": 78
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/2/roster/MIL/1996\">Bucks</a> signed <a href=\"/l/2/player/275\">Jeff Malone</a> for $0.20M/year through 1996.",
+      "pids": [
+        275
+      ],
+      "tids": [
+        14
+      ],
+      "season": 1996,
+      "eid": 79
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/2/roster/MIL/1996\">Bucks</a> signed <a href=\"/l/2/player/414\">Mike Peplowski</a> for $0.20M/year through 1996.",
+      "pids": [
+        414
+      ],
+      "tids": [
+        14
+      ],
+      "season": 1996,
+      "eid": 80
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/2/roster/SEA/1996\">SuperSonics</a> signed <a href=\"/l/2/player/417\">Greg Grant</a> for $0.20M/year through 1996.",
+      "pids": [
+        417
+      ],
+      "tids": [
+        24
+      ],
+      "season": 1996,
+      "eid": 81
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/2/roster/DAL/1996\">Mavericks</a> signed <a href=\"/l/2/player/199\">LeRon Ellis</a> for $0.35M/year through 1996.",
+      "pids": [
+        199
+      ],
+      "tids": [
+        5
+      ],
+      "season": 1996,
+      "eid": 82
     }
   ],
   "draftPicks": [
@@ -20959,7 +21069,7 @@
       },
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 9,
+      "rosterOrder": 11,
       "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
@@ -26852,7 +26962,7 @@
       "injuries": []
     },
     {
-      "tid": -1,
+      "tid": 18,
       "name": "Michael Cage",
       "pos": "FC",
       "hgt": 81,
@@ -26864,7 +26974,7 @@
       },
       "contract": {
         "amount": 200,
-        "exp": 1998
+        "exp": 1996
       },
       "draft": {
         "round": 1,
@@ -26998,7 +27108,7 @@
         1.1852673301800447,
         0.3946941036528011
       ],
-      "gamesUntilTradable": 0,
+      "gamesUntilTradable": 14,
       "hof": false,
       "injury": {
         "type": "Healthy",
@@ -27006,13 +27116,17 @@
       },
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 7,
+      "rosterOrder": 9,
       "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
         {
           "season": 1996,
           "amount": "2126"
+        },
+        {
+          "season": 1996,
+          "amount": 200
         }
       ],
       "stats": [
@@ -27103,11 +27217,56 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 1996,
+          "tid": 18,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
         4,
-        5
+        5,
+        18
       ],
       "firstName": "Michael",
       "lastName": "Cage",
@@ -39066,7 +39225,7 @@
       "injuries": []
     },
     {
-      "tid": -1,
+      "tid": 18,
       "name": "Michael Curry",
       "pos": "GF",
       "hgt": 77,
@@ -39078,7 +39237,7 @@
       },
       "contract": {
         "amount": 200,
-        "exp": "1996"
+        "exp": 1996
       },
       "draft": {
         "round": 0,
@@ -39094,31 +39253,201 @@
       "ratings": [
         {
           "hgt": 40,
-          "stre": 47.6,
+          "stre": 47,
           "spd": 59,
-          "jmp": 49.4,
+          "jmp": 49,
           "endu": 56,
-          "ins": 38.6,
+          "ins": 38,
           "dnk": 32,
-          "ft": 57.2,
-          "fg": 45.8,
-          "tp": 49.4,
-          "drb": 51.8,
-          "pss": 57.2,
-          "reb": 45.8,
-          "pot": 54,
+          "ft": 57,
+          "fg": 45,
+          "tp": 49,
+          "drb": 51,
+          "pss": 57,
+          "reb": 45,
+          "pot": 51,
           "season": 1996,
           "fuzz": 0.793097751169103,
           "skills": [],
-          "ovr": 51,
-          "diq": 42.2,
-          "oiq": 49.4,
+          "ovr": 50,
+          "diq": 42,
+          "oiq": 49,
           "pos": "GF"
         }
       ],
       "skills": [],
       "awards": [],
       "face": {
+        "fatness": 0.81,
+        "teamColors": [
+          "#0d435e",
+          "#f0494a",
+          "#cccccc"
+        ],
+        "body": {
+          "id": "body",
+          "color": "#ddb7a0"
+        },
+        "jersey": {
+          "id": "jersey3"
+        },
+        "ear": {
+          "id": "ear1",
+          "size": 0.77
+        },
+        "head": {
+          "id": "head6",
+          "shave": "rgba(0,0,0,0)"
+        },
+        "eyeLine": {
+          "id": "line4"
+        },
+        "smileLine": {
+          "id": "line3",
+          "size": 1.16
+        },
+        "miscLine": {
+          "id": "none"
+        },
+        "facialHair": {
+          "id": "none"
+        },
+        "eye": {
+          "id": "eye1",
+          "angle": 9
+        },
+        "eyebrow": {
+          "id": "eyebrow7",
+          "angle": -7
+        },
+        "hair": {
+          "id": "middle-part",
+          "color": "#B55239"
+        },
+        "mouth": {
+          "id": "angry",
+          "flip": false
+        },
+        "nose": {
+          "id": "nose7",
+          "flip": false,
+          "size": 0.91
+        },
+        "glasses": {
+          "id": "none"
+        },
+        "accessories": {
+          "id": "none"
+        }
+      },
+      "freeAgentMood": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "gamesUntilTradable": 14,
+      "hof": false,
+      "injury": {
+        "type": "Healthy",
+        "gamesRemaining": 0
+      },
+      "ptModifier": 1,
+      "retiredYear": null,
+      "rosterOrder": 13,
+      "watch": false,
+      "yearsFreeAgent": 0,
+      "salaries": [
+        {
+          "season": 1996,
+          "amount": 200
+        }
+      ],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 1996,
+          "tid": 18,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        18
+      ],
+      "firstName": "Michael",
+      "lastName": "Curry",
+      "relatives": [],
+      "value": 50,
+      "valueNoPot": 50,
+      "valueFuzz": 50,
+      "valueNoPotFuzz": 50,
+      "valueWithContract": 50,
+      "pid": 110,
+      "injuries": [],
+      "face2": {
         "head": {
           "id": 0
         },
@@ -39170,62 +39499,7 @@
         },
         "fatness": 0.9951984121805195,
         "color": "#ad6453"
-      },
-      "freeAgentMood": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "gamesUntilTradable": 0,
-      "hof": false,
-      "injury": {
-        "type": "Healthy",
-        "gamesRemaining": 0
-      },
-      "ptModifier": 1,
-      "retiredYear": null,
-      "rosterOrder": 666,
-      "watch": false,
-      "yearsFreeAgent": 0,
-      "salaries": [],
-      "stats": [],
-      "statsTids": [],
-      "firstName": "Michael",
-      "lastName": "Curry",
-      "relatives": [],
-      "value": 51,
-      "valueNoPot": 51,
-      "valueFuzz": 51,
-      "valueNoPotFuzz": 51,
-      "valueWithContract": 51,
-      "pid": 110,
-      "injuries": []
+      }
     },
     {
       "tid": 7,
@@ -60973,7 +61247,7 @@
       }
     },
     {
-      "tid": -1,
+      "tid": 18,
       "name": "Kevin Willis",
       "pos": "FC",
       "hgt": 84,
@@ -60985,7 +61259,7 @@
       },
       "contract": {
         "amount": 200,
-        "exp": 1998
+        "exp": 1997
       },
       "draft": {
         "round": 1,
@@ -61123,7 +61397,7 @@
         0.30661410415706714,
         1.4874330016232884
       ],
-      "gamesUntilTradable": 0,
+      "gamesUntilTradable": 14,
       "hof": false,
       "injury": {
         "type": "Healthy",
@@ -61131,13 +61405,21 @@
       },
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 6,
+      "rosterOrder": 7,
       "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
         {
           "season": 1996,
           "amount": "3650"
+        },
+        {
+          "season": 1996,
+          "amount": 200
+        },
+        {
+          "season": 1997,
+          "amount": 200
         }
       ],
       "stats": [
@@ -61228,11 +61510,56 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 1996,
+          "tid": 18,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
         13,
-        24
+        24,
+        18
       ],
       "firstName": "Kevin",
       "lastName": "Willis",
@@ -61906,7 +62233,7 @@
       }
     },
     {
-      "tid": -1,
+      "tid": 5,
       "name": "LeRon Ellis",
       "pos": "C",
       "hgt": 81,
@@ -61917,8 +62244,8 @@
         "loc": "Los Angeles, CA"
       },
       "contract": {
-        "amount": 200,
-        "exp": 1997
+        "amount": 350,
+        "exp": 1996
       },
       "draft": {
         "round": 1,
@@ -61934,82 +62261,92 @@
       "ratings": [
         {
           "hgt": 55,
-          "stre": 59.6,
-          "spd": 40.4,
-          "jmp": 52.4,
+          "stre": 59,
+          "spd": 40,
+          "jmp": 52,
           "endu": 47,
-          "ins": 45.8,
-          "dnk": 52.4,
-          "ft": 52.4,
-          "fg": 57.8,
+          "ins": 45,
+          "dnk": 52,
+          "ft": 52,
+          "fg": 57,
           "tp": 20,
-          "drb": 40.4,
+          "drb": 40,
           "pss": 35,
           "reb": 56,
-          "pot": 45,
+          "pot": 40,
           "season": 1996,
           "fuzz": -2.8863612967197403,
           "skills": [],
-          "ovr": 41,
+          "ovr": 40,
           "diq": 53,
-          "oiq": 35.6,
+          "oiq": 35,
           "pos": "C"
         }
       ],
       "skills": [],
       "awards": [],
       "face": {
+        "fatness": 0.75,
+        "teamColors": [
+          "#0d435e",
+          "#f0494a",
+          "#cccccc"
+        ],
+        "body": {
+          "id": "body",
+          "color": "#ad6453"
+        },
+        "jersey": {
+          "id": "jersey3"
+        },
+        "ear": {
+          "id": "ear1",
+          "size": 1.18
+        },
         "head": {
-          "id": 0
+          "id": "head4",
+          "shave": "rgba(0,0,0,0)"
         },
-        "eyebrows": [
-          {
-            "id": 0,
-            "lr": "l",
-            "cx": 135,
-            "cy": 250
-          },
-          {
-            "id": 0,
-            "lr": "r",
-            "cx": 265,
-            "cy": 250
-          }
-        ],
-        "eyes": [
-          {
-            "id": 3,
-            "lr": "l",
-            "cx": 135,
-            "cy": 280,
-            "angle": 7.972577313698267
-          },
-          {
-            "id": 3,
-            "lr": "r",
-            "cx": 265,
-            "cy": 280,
-            "angle": 7.972577313698267
-          }
-        ],
-        "nose": {
-          "id": 1,
-          "lr": "l",
-          "cx": 200,
-          "cy": 330,
-          "size": 0.19188757542727464,
-          "flip": true
+        "eyeLine": {
+          "id": "line5"
         },
-        "mouth": {
-          "id": 1,
-          "cx": 200,
-          "cy": 400
+        "smileLine": {
+          "id": "line4",
+          "size": 0.96
+        },
+        "miscLine": {
+          "id": "none"
+        },
+        "facialHair": {
+          "id": "none"
+        },
+        "eye": {
+          "id": "eye7",
+          "angle": 14
+        },
+        "eyebrow": {
+          "id": "eyebrow10",
+          "angle": -8
         },
         "hair": {
-          "id": 3
+          "id": "parted",
+          "color": "#272421"
         },
-        "fatness": 0.8571944829617544,
-        "color": "#ad6453"
+        "mouth": {
+          "id": "straight",
+          "flip": true
+        },
+        "nose": {
+          "id": "nose7",
+          "flip": true,
+          "size": 0.53
+        },
+        "glasses": {
+          "id": "none"
+        },
+        "accessories": {
+          "id": "none"
+        }
       },
       "freeAgentMood": [
         0,
@@ -62042,7 +62379,7 @@
         0.20230761843115164,
         0.18752904641328338
       ],
-      "gamesUntilTradable": 0,
+      "gamesUntilTradable": 14,
       "hof": false,
       "injury": {
         "type": "Healthy",
@@ -62057,6 +62394,10 @@
         {
           "season": 1996,
           "amount": "400"
+        },
+        {
+          "season": 1996,
+          "amount": 350
         }
       ],
       "stats": [
@@ -62147,22 +62488,120 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 1996,
+          "tid": 5,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
         13,
-        24
+        24,
+        5
       ],
       "firstName": "LeRon",
       "lastName": "Ellis",
       "relatives": [],
-      "value": 41,
-      "valueNoPot": 41,
-      "valueFuzz": 41,
-      "valueNoPotFuzz": 41,
-      "valueWithContract": 41,
+      "value": 40,
+      "valueNoPot": 40,
+      "valueFuzz": 40,
+      "valueNoPotFuzz": 40,
+      "valueWithContract": 40,
       "pid": 199,
-      "injuries": []
+      "injuries": [],
+      "face2": {
+        "head": {
+          "id": 0
+        },
+        "eyebrows": [
+          {
+            "id": 0,
+            "lr": "l",
+            "cx": 135,
+            "cy": 250
+          },
+          {
+            "id": 0,
+            "lr": "r",
+            "cx": 265,
+            "cy": 250
+          }
+        ],
+        "eyes": [
+          {
+            "id": 3,
+            "lr": "l",
+            "cx": 135,
+            "cy": 280,
+            "angle": 7.972577313698267
+          },
+          {
+            "id": 3,
+            "lr": "r",
+            "cx": 265,
+            "cy": 280,
+            "angle": 7.972577313698267
+          }
+        ],
+        "nose": {
+          "id": 1,
+          "lr": "l",
+          "cx": 200,
+          "cy": 330,
+          "size": 0.19188757542727464,
+          "flip": true
+        },
+        "mouth": {
+          "id": 1,
+          "cx": 200,
+          "cy": 400
+        },
+        "hair": {
+          "id": 3
+        },
+        "fatness": 0.8571944829617544,
+        "color": "#ad6453"
+      }
     },
     {
       "tid": 1,
@@ -76844,7 +77283,7 @@
       },
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 7,
+      "rosterOrder": 8,
       "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
@@ -78071,7 +78510,7 @@
       },
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 8,
+      "rosterOrder": 10,
       "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
@@ -78631,7 +79070,7 @@
       },
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 11,
+      "rosterOrder": 14,
       "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
@@ -78912,7 +79351,7 @@
       },
       "ptModifier": 1,
       "retiredYear": null,
-      "rosterOrder": 10,
+      "rosterOrder": 12,
       "watch": false,
       "yearsFreeAgent": 0,
       "salaries": [
@@ -81099,7 +81538,7 @@
       }
     },
     {
-      "tid": -1,
+      "tid": 14,
       "name": "Jeff Malone",
       "pos": "SG",
       "hgt": 76,
@@ -81111,7 +81550,7 @@
       },
       "contract": {
         "amount": 200,
-        "exp": 1998
+        "exp": 1996
       },
       "draft": {
         "round": 1,
@@ -81245,7 +81684,7 @@
         0,
         0.8679956471352037
       ],
-      "gamesUntilTradable": 0,
+      "gamesUntilTradable": 14,
       "hof": false,
       "injury": {
         "type": "Healthy",
@@ -81260,6 +81699,10 @@
         {
           "season": 1996,
           "amount": "2380"
+        },
+        {
+          "season": 1996,
+          "amount": 200
         }
       ],
       "stats": [
@@ -81306,10 +81749,55 @@
           "ortg": 0,
           "dws": 0,
           "ows": 0
+        },
+        {
+          "playoffs": false,
+          "season": 1996,
+          "tid": 14,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        19
+        19,
+        14
       ],
       "firstName": "Jeff",
       "lastName": "Malone",
@@ -115907,7 +116395,7 @@
       }
     },
     {
-      "tid": 13,
+      "tid": -1,
       "name": "Chris Whitney",
       "pos": "PG",
       "hgt": 72,
@@ -115918,8 +116406,8 @@
         "loc": "Hopkinsville, KY"
       },
       "contract": {
-        "amount": 200,
-        "exp": "1996"
+        "amount": 1550,
+        "exp": 1998
       },
       "draft": {
         "round": 2,
@@ -116013,35 +116501,35 @@
         "color": "#5c3937"
       },
       "freeAgentMood": [
+        1.6952948127310867,
+        1.0901910453614791,
+        1.6781204282365725,
+        0,
+        0,
+        0.13673008630867473,
+        1.7070571178534248,
+        1.9412770221065359,
+        1.5773386368263531,
+        0.3621557497885924,
+        1.1861865337491255,
+        0,
+        0.5558594346035659,
+        0.2831395565978305,
         0,
         0,
         0,
+        1.4646341228559163,
+        1.722724946324614,
+        1.6193614769932456,
+        0.8060153621233186,
+        0.9593319844216384,
+        1.2658734543010786,
+        1.3928413691128412,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        1.470758428171918,
+        0.20310375753876786,
+        0.39026897691010864,
+        1.157284824575267
       ],
       "gamesUntilTradable": 14,
       "hof": false,
@@ -116398,7 +116886,7 @@
       }
     },
     {
-      "tid": -1,
+      "tid": 14,
       "name": "Mike Peplowski",
       "pos": "C",
       "hgt": 82,
@@ -116409,8 +116897,8 @@
         "loc": "Detroit, MI"
       },
       "contract": {
-        "amount": 230,
-        "exp": "1996"
+        "amount": 200,
+        "exp": 1996
       },
       "draft": {
         "round": 2,
@@ -116426,31 +116914,201 @@
       "ratings": [
         {
           "hgt": 59,
-          "stre": 65.6,
-          "spd": 34.4,
-          "jmp": 46.4,
-          "endu": 46.4,
-          "ins": 53.6,
-          "dnk": 52.4,
+          "stre": 65,
+          "spd": 34,
+          "jmp": 46,
+          "endu": 46,
+          "ins": 53,
+          "dnk": 52,
           "ft": 53,
           "fg": 47,
           "tp": 20,
           "drb": 47,
           "pss": 53,
-          "reb": 59.6,
+          "reb": 59,
           "pot": 50,
           "season": 1996,
           "fuzz": 0.933400935460693,
           "skills": [],
-          "ovr": 48,
+          "ovr": 47,
           "diq": 53,
-          "oiq": 43.4,
+          "oiq": 43,
           "pos": "C"
         }
       ],
       "skills": [],
       "awards": [],
       "face": {
+        "fatness": 0.02,
+        "teamColors": [
+          "#0d435e",
+          "#f0494a",
+          "#cccccc"
+        ],
+        "body": {
+          "id": "body",
+          "color": "#aa816f"
+        },
+        "jersey": {
+          "id": "jersey3"
+        },
+        "ear": {
+          "id": "ear2",
+          "size": 0.8
+        },
+        "head": {
+          "id": "head4",
+          "shave": "rgba(0,0,0,0)"
+        },
+        "eyeLine": {
+          "id": "line3"
+        },
+        "smileLine": {
+          "id": "line3",
+          "size": 1
+        },
+        "miscLine": {
+          "id": "forehead3"
+        },
+        "facialHair": {
+          "id": "mustache1"
+        },
+        "eye": {
+          "id": "eye6",
+          "angle": 7
+        },
+        "eyebrow": {
+          "id": "eyebrow10",
+          "angle": -9
+        },
+        "hair": {
+          "id": "high",
+          "color": "#272421"
+        },
+        "mouth": {
+          "id": "smile-closed",
+          "flip": true
+        },
+        "nose": {
+          "id": "pinocchio",
+          "flip": true,
+          "size": 1.16
+        },
+        "glasses": {
+          "id": "glasses1-primary"
+        },
+        "accessories": {
+          "id": "none"
+        }
+      },
+      "freeAgentMood": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "gamesUntilTradable": 14,
+      "hof": false,
+      "injury": {
+        "type": "Healthy",
+        "gamesRemaining": 0
+      },
+      "ptModifier": 1,
+      "retiredYear": null,
+      "rosterOrder": 666,
+      "watch": false,
+      "yearsFreeAgent": 0,
+      "salaries": [
+        {
+          "season": 1996,
+          "amount": 200
+        }
+      ],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 1996,
+          "tid": 14,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        14
+      ],
+      "firstName": "Mike",
+      "lastName": "Peplowski",
+      "relatives": [],
+      "value": 47.300000000000004,
+      "valueNoPot": 47,
+      "valueFuzz": 47.300000000000004,
+      "valueNoPotFuzz": 47,
+      "valueWithContract": 47.300000000000004,
+      "pid": 414,
+      "injuries": [],
+      "face2": {
         "head": {
           "id": 0
         },
@@ -116502,65 +117160,10 @@
         },
         "fatness": 0.5267687577809956,
         "color": "#a67358"
-      },
-      "freeAgentMood": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "gamesUntilTradable": 0,
-      "hof": false,
-      "injury": {
-        "type": "Healthy",
-        "gamesRemaining": 0
-      },
-      "ptModifier": 1,
-      "retiredYear": null,
-      "rosterOrder": 666,
-      "watch": false,
-      "yearsFreeAgent": 0,
-      "salaries": [],
-      "stats": [],
-      "statsTids": [],
-      "firstName": "Mike",
-      "lastName": "Peplowski",
-      "relatives": [],
-      "value": 48.2,
-      "valueNoPot": 48,
-      "valueFuzz": 48.2,
-      "valueNoPotFuzz": 48,
-      "valueWithContract": 48.2,
-      "pid": 414,
-      "injuries": []
+      }
     },
     {
-      "tid": -1,
+      "tid": 13,
       "name": "Kevin Pritchard",
       "pos": "PG",
       "hgt": 75,
@@ -116571,7 +117174,7 @@
         "loc": "Bloomington, IN"
       },
       "contract": {
-        "amount": 2000,
+        "amount": 200,
         "exp": 1996
       },
       "draft": {
@@ -116706,7 +117309,7 @@
         0,
         0
       ],
-      "gamesUntilTradable": 0,
+      "gamesUntilTradable": 14,
       "hof": false,
       "injury": {
         "type": "Healthy",
@@ -116717,7 +117320,12 @@
       "rosterOrder": 666,
       "watch": false,
       "yearsFreeAgent": 0,
-      "salaries": [],
+      "salaries": [
+        {
+          "season": 1996,
+          "amount": 200
+        }
+      ],
       "stats": [
         {
           "playoffs": false,
@@ -116762,10 +117370,55 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 1996,
+          "tid": 13,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        28
+        28,
+        13
       ],
       "firstName": "Kevin",
       "lastName": "Pritchard",
@@ -117109,7 +117762,7 @@
       }
     },
     {
-      "tid": -1,
+      "tid": 24,
       "name": "Greg Grant",
       "pos": "PG",
       "hgt": 67,
@@ -117120,8 +117773,8 @@
         "loc": "Trenton, NJ"
       },
       "contract": {
-        "amount": 230,
-        "exp": "1996"
+        "amount": 200,
+        "exp": 1996
       },
       "draft": {
         "round": 2,
@@ -117137,25 +117790,25 @@
       "ratings": [
         {
           "hgt": 3,
-          "stre": 29.6,
-          "spd": 58.4,
-          "jmp": 57.8,
-          "endu": 52.4,
-          "ins": 33.8,
-          "dnk": 46.4,
-          "ft": 59.6,
-          "fg": 54.2,
-          "tp": 52.4,
-          "drb": 63.2,
-          "pss": 60.8,
-          "reb": 39.2,
-          "pot": 47,
+          "stre": 29,
+          "spd": 58,
+          "jmp": 57,
+          "endu": 52,
+          "ins": 33,
+          "dnk": 46,
+          "ft": 59,
+          "fg": 54,
+          "tp": 52,
+          "drb": 63,
+          "pss": 60,
+          "reb": 39,
+          "pot": 46,
           "season": 1996,
           "fuzz": 2.9556147919404916,
           "skills": [],
-          "ovr": 47,
+          "ovr": 46,
           "diq": 50,
-          "oiq": 52.4,
+          "oiq": 52,
           "pos": "PG"
         }
       ],
@@ -117255,7 +117908,7 @@
         0,
         0
       ],
-      "gamesUntilTradable": 0,
+      "gamesUntilTradable": 14,
       "hof": false,
       "injury": {
         "type": "Healthy",
@@ -117266,17 +117919,69 @@
       "rosterOrder": 666,
       "watch": false,
       "yearsFreeAgent": 0,
-      "salaries": [],
-      "stats": [],
-      "statsTids": [],
+      "salaries": [
+        {
+          "season": 1996,
+          "amount": 200
+        }
+      ],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 1996,
+          "tid": 24,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        24
+      ],
       "firstName": "Greg",
       "lastName": "Grant",
       "relatives": [],
-      "value": 45.824999999999996,
-      "valueNoPot": 47,
-      "valueFuzz": 45.824999999999996,
-      "valueNoPotFuzz": 47,
-      "valueWithContract": 45.824999999999996,
+      "value": 44.85,
+      "valueNoPot": 46,
+      "valueFuzz": 44.85,
+      "valueNoPotFuzz": 46,
+      "valueWithContract": 44.85,
       "pid": 417,
       "injuries": [],
       "face2": {
